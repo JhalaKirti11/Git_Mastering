@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>For-in loop in javascript</h2>
+    <script>
+        let obj = {
+            name : "kirti",
+            rollNo : 1234,
+            address : "sehore"
+        };
+        let arr ="";
+
+        for(let i in obj){
+            arr = arr+obj[i]+" ";
+            document.writeln(i, " ",obj[i]);
+        }
+        document.writeln("           ", arr);
+
+        // for(let i in arr){
+        // document.writeln(arr[i]+"    ");
+        // }
+    </script>
+</body>
+</html>
